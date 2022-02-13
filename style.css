@@ -58,7 +58,7 @@ html {
 }
 
 .showcase-text {
-    height: 200px;
+    height: 250px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -86,3 +86,57 @@ html {
     padding-top: 14px;
 
 }
+
+.card-section {
+    height: max-content;
+    background-color: var( --color );
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(400px, 500px)) 1fr;
+    column-gap: 10px;
+}
+
+.cards {
+    height: 500px;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.cards>div {
+    height: 450px;
+    flex: 31%;
+    background-color: white;
+}
+
+.image-top img {
+    width: 100%;
+    height: auto;
+}
+
+.card-contents {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contents h2 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.card-contents p {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
