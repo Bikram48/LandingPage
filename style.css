@@ -123,6 +123,14 @@ html {
     justify-content: center;
 }
 
+section.text-content {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .card-contents h2 {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -132,11 +140,23 @@ html {
 }
 
 
-.card-contents p {
+.card-contents, .content-description p {
     padding: 1rem;
     text-align: center;
     font-size: 2rem;
     line-height: 3rem;
+}
+
+.content-description {
+    width: 50%;
+}
+
+.content-title h2 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
 
 
